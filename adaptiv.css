@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 1738px;
+    }
+    #menu {
+        width: 1147px;
+        display: flex;
+        justify-content: inherit;
+        align-items: end;
+        background-color: #E8E8EA;
+        height: 68px;
+        /* margin-right: 22%; */
+        margin-left: 329px;
+        box-shadow: 0px 4px 4px -4px grey;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        width: 100%;
+    }
+    .container-main {
+        background-color: #D0C3BD;
+        display: inline-block;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #524e4b;
+        margin-top: 182px;  
+        width: 100%;
+    }
+    #menu {
+        width: 62%;
+        margin-left: 325px;
+    }
+    .left {
+        width: 1076px;
+        height: 913px;
+        display: flex;
+        flex-direction: column;
+        background-color: #E8E8EA;
+        margin-top: -72px;
+        box-shadow: 0 1px 5px 0px grey;
+        border-radius: 5px;
+        margin: -64px auto;
+    }
+    .left-background {
+        width: 49%;
+        height: 606px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(images/eiffel-tower.jpg);
+        margin: 31px;
+        border: darkkhaki;
+        border-radius: 405px;
+        margin: 25px auto;
+    }
+    .left-text {
+        padding: 31px;
+        line-height: 1.5;
+    }
+    .left-text-h1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .left-p {
+        font-size: 21px;
+    }
+    .center {
+        width: 1076px;
+        background-color: #E8E8EA;
+        margin: 95px auto;
+        box-shadow: 0 1px 5px 0px grey;
+        border-radius: 5px;
+    }
+    .right {
+        width: 1076px;
+        display: flex;
+        flex-direction: column;
+        background-color: #E8E8EA;
+        margin-top: 116px;
+        box-shadow: 0 1px 5px 0px grey;
+        border-radius: 5px;
+        align-items: center;
+        margin: 95px auto;
+    }
+    .right-cont-back {
+        width: 97%;
+        height: 884px;
+        background-color: #E8E8EA;
+        margin-top: 13px;
+        margin-bottom: 10px;
+        padding-top: 21px;
+        display: flex;
+        flex-direction: row;
+    }
+    .right-h1 {
+        display: none;
+    }
+    .right-imput {
+        width: 388px;
+        height: 583px;
+        background-color: #dfdfdf;
+        margin-bottom: 16px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 3px 0px grey;
+    }
+    button.input-button {
+        margin-left: 50%;
+        margin-top: 24px;
+        width: 94px;
+        height: 27px;
+        margin-bottom: 17px;
+        margin: 24px 50% 17px 38%;
+    }
+    #menu {
+        width: 100%;
+        margin-left: 13px;
+    }
+    .footer {
+        width: 1076px;
+    }
+}
+
+
+@media only screen and (min-width: 1854px) {
+    .container {
+        width: 100%;
+    }
+    .center {
+        width: 66%;
+        background-color: #E8E8EA;
+        margin-top: 64px;
+        box-shadow: 0 1px 5px 0px grey;
+        border-radius: 5px;
+        height: 1053px;
+    }
+    #menu {
+        width: 66%;
+        display: flex;
+        justify-content: unset;
+        align-items: end;
+        background-color: #E8E8EA;
+        height: 68px;
+        /* margin-right: 22%; */
+        margin-left: 19%;
+        box-shadow: 0px 4px 4px -4px grey;
+    }
+    .footer {
+        width: 100%
+    }
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Train</title>
+    <link rel="icon" href="images/icone.jpg" />
+    <link rel="stylesheet" href="style-training.css" />
+    <link rel="stylesheet" href="adaptiv.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery-3.6.3.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-menu">
+        <div id="menu">
+          <a class="a1" href="#">News</a>
+          <a class="a2" href="#">About New York</a>
+          <a class="active" href="#">About France</a>
+          <a class="a4" href="#">Photo</a>
+          <a class="a5" href="#">About us</a>
+          <a class="a6" href="#" onclick="displayBlock()">Contact us</a>
+        </div>
+        <div class="block-contacts"></div>
+      </div>
+      <div class="container-main">
+        <div class="left">
+          <div class="left-text">
+            <h1 class="left-text-h1">Traveling to France</h1>
+            <p class="left-p">
+              France’s most serviced international airport is Charles de Gaulle,
+              just outside of Paris. Flights from New York to Paris takes around
+              seven hours; from Los Angeles it takes 11 hours. Once in Paris,
+              you have numerous transportation options to travel around France.
+              Domestic and charter flights generally depart from Orly airport
+              just south of Paris. Trains connecting you to nearly every
+              destination in France and Europe leave from a number of Paris’
+              centrally located gares (train stations).
+            </p>
+          </div>
+          <div class="left-background"></div>
+        </div>
+
+        <div class="center">
+          <div class="center-cont">
+            <h1 class="center-h1">Places to Visit When Traveling in France</h1>
+            <p class="center-p1 text-block-p1">
+              <img
+                class="center-img-1"
+                src="images/Versalskij-zamok.jpg"
+                alt=""
+                onclick="changeImg()"
+              />
+              The Dordogne: Both a département and a river, the Dordogne is the
+              golden heartland of the southwest, part of the huge region of
+              Aquitaine. Just to confuse us foreigners, many French use the name
+              Périgord when talking about this incomparably lovely area. This is
+              the quintessential rural France. Everywhere here seems just so
+              pastorally perfect, right down to the bright splash of dainty
+              butterflies and the occasional fluffy duckling paddling down
+              river. The Périgord summers are gloriously warm and sunny.
+              <br />
+              Under resplendent blue skies, the countryside is a feast for the
+              eyes, a harvest festival of vineyards, fields full of sunflowers,
+              tobacco plants, and corn, with shady walnut groves and stands of
+              oak trees that might hide an underground treasure-trove of gourmet
+              black truffles.
+              <br />
+              <br />
+              The Côte d’ Azur (French Riviera): Boats bobbing in the harbor,
+              villas draped with bougainvillea, and the turquoise sea sparkling
+              in the sunshine…who can resist Provence’s Côte d’Azur–the French
+              Riviera? Certainly not the large international community of
+              expatriate retirees, drawn here by the mild winter climate. Strung
+              out between Hyères and the Italian border, 26 resorts line this
+              turquoise coast of rust-colored cliffs. The Other Provences: Aix,
+              Arles, Avignon, and More: Here you’ll find a lavender-scented
+              landscape of starry nights and sunflower fields made famous by
+              artists like Van Gogh and Cézanne.
+            </p>
+            <h1 class="center-h2">Other French Travel Destinations</h1>
+            <ul class="center-ul">
+              <li>
+                <a class="center-a" onclick="changeText()" href="#"
+                  >Champagne:</a
+                >
+                Visit this unique region to taste some real bubbly. Just 90
+                minutes from Paris.
+              </li>
+              <li>
+                <a class="center-a" href="https://wikiway.com/france/bordo/"
+                  >Bordeaux:</a
+                >
+                One of the best-known wine-producing regions in France.
+              </li>
+              <li>
+                <a class="center-a" href="https://traveller-eu.ru/elzas"
+                  >Alsace:</a
+                >
+                You may feel like you’ve crossed the border into Germany, but
+                rest assured, it’s still France.
+              </li>
+              <li>
+                <a
+                  class="center-a"
+                  href="https://frenchtrip.ru/regions/languedoc-roussillon/"
+                  >Languedoc-Roussillon:</a
+                >
+                The next door neighbor of Provence, this sun-drenched region is
+                rich with Roman ruins, medieval villages, meandering hiking
+                trails and vast Mediterranean beaches.
+              </li>
+            </ul>
+            <p class="center-p1">
+              <img class="center-img-2" src="images/Carcassonne.jpg" alt="" />
+              Once you’ve decided where to go, you’ll need to decide where to
+              stay. A luxury hotel, a charming little chambre d’hôte (B&B) with
+              just a handful of guestrooms, or maybe a self-catering gîte,
+              tucked away in the silent green heart of the countryside.
+              <br />
+              Although you’ll pay top dollar in Paris’ swankiest establishments,
+              French hotels are generally affordable. In the provinces, many
+              two- and three-star hotels cost from $55 to $85 for a room for
+              two. The great thing about travel in France is that you don’t have
+              to look long or far to find places that are deliciously charming
+              and old world.
+            </p>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="right-cont-back">
+            <h1 class="right-h1">Articles about France</h1>
+            <div class="right-back-1"></div>
+            <p class="right-back-p">
+              <a class="right-a" href="#">French cuisine </a>
+            </p>
+            <div class="right-back-2"></div>
+            <p class="right-back-p">
+              <a class="right-a" href="#">French culture </a>
+            </p>
+            <div class="right-back-3"></div>
+            <p class="right-back-p">
+              <a class="right-a" href="#">Nature of France </a>
+            </p>
+            <div class="right-back-4"></div>
+            <p class="right-back-p">
+              <a class="right-a" href="#">Holidays in France </a>
+            </p>
+          </div>
+
+          <div class="right-imput">
+            <p class="input-log-in">Log in to your account</p>
+            <form action="#" method="post" enctype="multipart/form-data"></form>
+            <div class="inputs">
+              <input
+                class="input-sername"
+                type="text"
+                name="sername"
+                placeholder="Your sername"
+                value=""
+              />
+              <input
+                class="input-password"
+                type="password"
+                name="password"
+                value=""
+              />
+              <p class="imput-p">
+                <input
+                  class="input-checkbox"
+                  type="checkbox"
+                  name="agreement"
+                  value=""
+                />
+                I want to receive a newsletter
+              </p>
+            </div>
+            <button class="input-button" type="submit" onclick="fillLog()">
+              Log in
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="cont__sliders">
+        <div>
+          <img
+            src="images/1left.png"
+            alt=""
+            class="icone__left"
+            onclick="slideLeft()"
+          />
+        </div>
+
+        <div class="img-10">
+          <div class="red-block">
+            <div class="black-block">
+              <img src="images/eiffel-tower.jpg" alt="" onclick="bigImage()" />
+            </div>
+          </div>
+          <!-- 
+  <img src="images/eiffel-tower.jpg" alt="">
+                    <img src="images/paris.jpg" alt="">
+                    <img src="images/fagag.jpg" alt="">
+                    <img src="images/Carcassonne.jpg" alt="">
+
+
+                    <img src="images/lavanda.jpg" alt="">
+                    <img src="images/eiffel-tower.jpg" alt="">
+                    <img src="images/paris.jpg" alt=""> -->
+        </div>
+
+        <div>
+          <img
+            src="images/2right.png"
+            alt=""
+            class="icone__right"
+            onclick="slideRight()"
+          />
+        </div>
+      </div>
+
+      <div class="sliders">
+        <div class="dot active" onclick="setActiveSlide(1)"></div>
+        <div class="dot" onclick="setActiveSlide(2)"></div>
+        <div class="dot" onclick="setActiveSlide(3)"></div>
+        <div class="dot" onclick="setActiveSlide(4)"></div>
+        <!-- 
+                <input checked type="radio" class="slider1" name="slider">
+                <input type="radio" class="slider2" name="slider">
+                <input type="radio" class="slider3" name="slider">
+                 -->
+      </div>
+
+      <!-- footer -->
+
+      <div class="footer">
+        <div class="footer-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="modal">
+      <div class="modal-wrap">
+        <div class="modal__window"></div>
+        <div class="modal__back"></div>
+      </div>
+    </div>
+  </body>
+</html>
